@@ -16,3 +16,17 @@ def take_input():
         "date":date
     }
     expenses.append(expense)
+    
+def dis():
+    if(len(expenses)==0):
+            print("Add expenses First")
+    else:
+         print()
+         print("=== Here Is your all Expenses")
+         print()
+         count=1
+         for r in expenses:
+            
+            print(f"{count},{r}")
+            count+=1
+
